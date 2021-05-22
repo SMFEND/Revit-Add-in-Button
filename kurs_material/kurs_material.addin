@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command kurs_material</Text>
+    <Description>Some description for kurs_material</Description>
+    <Assembly>kurs_material.dll</Assembly>
+    <FullClassName>kurs_material.Command</FullClassName>
+    <ClientId>5302da70-7f13-47c1-a15e-8345a7f6af4d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application kurs_material</Name>
+    <Assembly>kurs_material.dll</Assembly>
+    <FullClassName>kurs_material.App</FullClassName>
+    <ClientId>47f6c2ea-1236-4420-9018-ddfacced12f7</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
